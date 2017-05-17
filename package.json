@@ -1,13 +1,14 @@
 {
-  "name": "your-game-name-here",
+  "name": "aerohandbattleground",
   "version": "1.0.0",
-  "description": "Game description here",
+  "description": "2D chiji",
   "main": "server/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server/server.js"
+    "start": "node server/server.js",
+    "stop": "pkill --signal -SIGINT server/server.js"
   },
-  "author": "Your Name",
+  "author": "Aerohand",
   "dependencies": {
     "express": "^4.13.0",
     "socket.io": "^1.3.5"
